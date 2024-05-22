@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('md_ejercicio.html',''); initResizable(
 <li><code><a class="el" href="interr_8c.html" title="Interrupt service routines for the STM32F4 platform.">interr.c</a></code>: <b>cuando salta la ISR del timer y lee y convierte 1 dato</b></li>
 <li><code><a class="el" href="fsm__har__system_8c.html#a8374b901eccab8dd49dbfbec8af58aa1" title="Store the data from the accelerometer sensor.">do_store_data()</a></code>: <b>para cuando se guarda un dato leído del acelerómetro</b></li>
 <li><code><a class="el" href="fsm__har__system_8c.html#a2350d41508ad4eea851ec2db1fc008e1" title="Compute the features from the acceleration block.">do_compute_features()</a></code>: <b>para cuando se han guardado 5 segundos de datos y se calculan las features</b></li>
-<li><code>do_compute_activities()</code>: <b>para cuando se han calculado las 21 features y se calcula la actividad</b></li>
+<li><code><a class="el" href="fsm__har__system_8c.html#a617636deaca0cba5fb8062fb8733e79a" title="Compute the activity recognition.">do_compute_activity()</a></code>: <b>para cuando se han calculado las 21 features y se calcula la actividad</b></li>
 </ul>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Preguntas</h1>
@@ -105,7 +105,10 @@ Preguntas</h1>
 <li>Completar las llamadas a las funciones anteriores en la función: <code><a class="el" href="fsm__har__system_8c.html#a2350d41508ad4eea851ec2db1fc008e1" title="Compute the features from the acceleration block.">do_compute_features()</a></code> y el cálculo de la desviación estándar y la amplitud.</li>
 </ul>
 <p><b>2. Compruebe que el código funciona correctamente y súbalo a Moodle.</b></p>
-<p>Muestre cómo se ve que se ha clasificado alguna actividad (las primeras, por ejemplo, que es la etiqueta 1). Si quiere añadir alguna explicación o comentario también puede hacerlo. Aquí no tiene que pegar las funciones, para eso tiene que subir el proyecto. Use el SCL short que se le proporciona con el proyecto. </p>
+<p>Ejecute el código y haga captura 1 captura de pantalla que muestre en la terminal SWO el valor de las features calculadas y la primera actividad inferida. También que se muestre el valor de las variables en el menú de VARIABLES durante la depuración.</p>
+<p>Ponga la captura de pantalla en la carpeta /docs/assets/imgs del proyecto con el nombre <code>ejercicio.png</code>.</p>
+<p>Compruebe que los valores son los correctos utilizando el fichero <code>har_comprueba_ejercicio.xlsx</code> que se encuentra en la carpeta /docs/assets/xlsx.</p>
+<p>Suba el proyecto a Moodle en un archivo comprimido con el nombre <code>fsm_har_apellido1_nombre.zip</code>. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
