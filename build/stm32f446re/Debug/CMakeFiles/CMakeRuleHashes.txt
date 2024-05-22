@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+95d9525a1cd9634f116b3aa7346d8376 CMakeFiles/flash-main
+9a59b186d79af0099a20ab0462ff580e test/integration/CMakeFiles/flash-test_blink
+5d99ca241f03e227b274b813bd579d75 test/unit/CMakeFiles/flash-test_led
+ef599ca760d72009aa3bb86e34be57f3 test/unit/stm32f4/CMakeFiles/flash-test_stm32f4

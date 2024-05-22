@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -Werror -Wno-unused-parameter -g -O0 CMakeFiles/main.dir/main.c.o -o /home/josueportiz/entornos/iein/MatrixMCU/projects/fsm_har_private/bin/native/Debug/main  libproject.a libfsm.a 

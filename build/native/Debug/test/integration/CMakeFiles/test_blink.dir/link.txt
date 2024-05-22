@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -Werror -Wno-unused-parameter -g -O0 CMakeFiles/test_blink.dir/test_blink.c.o -o /home/josueportiz/entornos/iein/MatrixMCU/projects/fsm_har_private/bin/native/Debug/test_blink  ../../libproject.a ../../libfsm.a 

@@ -1,0 +1,2 @@
+/usr/local/bin/gcc-arm-none-eabi-10.3-2021.07/bin/arm-none-eabi-ar qc libunity.a CMakeFiles/unity.dir/home/josueportiz/entornos/iein/MatrixMCU/lib/unity/src/unity.c.obj
+/usr/local/bin/gcc-arm-none-eabi-10.3-2021.07/bin/arm-none-eabi-ranlib libunity.a
